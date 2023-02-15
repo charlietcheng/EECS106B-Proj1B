@@ -1,0 +1,8 @@
+prefix=/home/cc/ee106b/sp23/class/ee106b-aaw/ros_workspaces/proj1b/install
+
+Name: baxter_pykdl
+Description: Description of baxter_pykdl
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy geometry_msgs sensor_msgs urdfdom tf baxter_interface baxter_core_msgs intera_core_msgs intera_interface
